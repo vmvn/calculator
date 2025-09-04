@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.button {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.equal {
+  background-color: skyblue;
+  color: white;
+  grid-area: 2 / 4 / 6 / 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.display {
+  background-color: black;
+  color: white;
+  text-align: end;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.ac {
+  background-color: crimson;
+  color: white;
+}

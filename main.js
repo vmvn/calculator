@@ -27,3 +27,11 @@ function operate(operator, n1, n2) {
     return divide(n1, n2);
   }
 }
+
+const numbers = document.querySelectorAll('.number');
+const display = document.querySelector('.display');
+numbers.forEach((element) => {
+  element.addEventListener('click', (e) => {
+    display.textContent += e.target.textContent;
+  })
+})
